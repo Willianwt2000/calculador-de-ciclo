@@ -95,7 +95,7 @@
     gap: 10px;
     
     position: absolute;
-    top: 75%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -20px);
     -webkit-transform: translate(-50%, -20px);
@@ -130,7 +130,7 @@
     gap: 10px;
     flex-direction: column;
     position: absolute;
-    top: 65%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -20px);
     -webkit-transform: translate(-50%, -20px);
