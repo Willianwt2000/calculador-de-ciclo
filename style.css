@@ -72,6 +72,22 @@
     -o-border-radius: 20px;
 }
 
+.btn-clear {
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 10rem;
+    height: 3rem;
+    background: rgba(195, 0, 255, 0.74);
+    opacity: 0.9;
+    border-radius: 20px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.5);
+    border: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
 .btn-screen-cicle {
     display: flex;
     gap: 10px;
