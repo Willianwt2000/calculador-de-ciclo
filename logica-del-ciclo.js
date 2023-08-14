@@ -1,38 +1,3 @@
-
-// let screen = document.getElementById("pantalla")
-// let cicle = document.getElementById("ciclo")
-// let btn = document.querySelector("#btn")
-
-
-//     function calcular() {
-//         let segundos = 3600;
-//         segundos/= parseFloat(cicle.value)
-//         segundos*=12;
-    
-//         if (cicle.value === "") {
-//             screen.value = `Error Ingrece el ciclo de la maquina`
-//             screen.style.color = "red"
-//         } else {
-//             screen.value = 'La producción es de: ' + parseInt(segundos * 12);
-//             screen.style.color = "green"
-//         }
-        
-//     }
-
-
-// function limpiarPantalla() {
-//     screen.value = "";
-// }
-
-// // Agregar el evento de clic al botón de borrar
-// const btnLimpiar = document.querySelector("#clear");
-// btnLimpiar.addEventListener("click", limpiarPantalla);
-
-// btn.addEventListener("click", calcular)
-
-
-
-
 let screen = document.getElementById("pantalla");
 let cicle = document.getElementById("ciclo");
 let btn = document.querySelector("#btn");
