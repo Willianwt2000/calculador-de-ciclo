@@ -1,11 +1,13 @@
 let screen = document.getElementById("pantalla");
 let cicle = document.getElementById("ciclo");
 let btn = document.querySelector("#btn");
+let timeWork = document.getElementById("timeWork")
 
 function calcularProduccion(opcion) {
     let segundos = 3600;
-    segundos /= parseFloat(cicle.value);
-    segundos *= 12;
+    segundos /= parseInt(cicle.value);
+    segundos *= timeWork.value;
+    console.log(timeWork)
 
     if (cicle.value === "") {
         screen.value = `Error: Ingrese el ciclo de la máquina`;
@@ -24,6 +26,7 @@ function calcularProduccion(opcion) {
             screen.style.color = "chocolate";
         } else if (opcion === 3) {
             alert (`Ustede ha selecciona de la opcion #1 el MOLDE de 6 cavidades`)
+
             screen.value = `La producción  es de: ${produccion3}`;
             screen.style.color = "purple";
         } else {
