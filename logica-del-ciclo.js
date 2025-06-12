@@ -37,7 +37,7 @@ function calcularProduccion(opcion) {
 }
 
 function limpiarPantalla() {
-    screen.value = "";
+    return screen.value = "";
 }
 
 // Agregar el evento de clic al botón de borrar
@@ -48,3 +48,5 @@ btn.addEventListener("click", () => {
     const opcion = parseInt(prompt("Seleccione una opción para calcula el ciclo:\n1. Opción para el molde de: 12\n2. Opción para el molde de:  8\n3. Opción para el molde de:  6"));
     calcularProduccion(opcion);
 });
+
+
